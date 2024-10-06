@@ -9,7 +9,8 @@
     "joke": "node joker.js",
     "joke2": "node joker.test.js",
     "format": "prettier --write \"**/*.js\"",
-    "lint": "eslint \"**/*.js\"--cache --fix"
+    "lint": "eslint \"**/*.js\" --cache --fix",
+    "lint-fix": "eslint \"**/*.js\" --cache --fix"
   },
   "author": "angelos.zr",
   "license": "ISC",
