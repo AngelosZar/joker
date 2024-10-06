@@ -6,11 +6,12 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "joke": "node joker.js"
+    "joke": "node joker.js",
+    "format": "prettier -w joker.js"
   },
   "author": "angelos.zr",
   "license": "ISC",
-  "dependencies": {
-    "one-liner-joke": "^1.2.2"
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
