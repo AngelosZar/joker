@@ -4,16 +4,16 @@
   "description": "enviroment examples",
   "type": "module",
   "main": "index.html",
-    "format": "prettier --write \"**/*.js\""
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "joke": "node joker.js",
     "joke2": "node joker.test.js",
-
-  }, 
+    "format": "prettier -w src/**/*.js"
+  },
   "author": "angelos.zr",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.57.1",
     "prettier": "^3.3.3"
   },
   "dependencies": {
