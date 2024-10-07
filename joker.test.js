@@ -11,3 +11,5 @@ export async function testDadJoke() {
 testDadJoke();
 
 console.log('intentionalError');
+
+console.log('Intentional Syntax Error');
