@@ -9,3 +9,5 @@ export async function testDadJoke() {
 }
 
 testDadJoke();
+
+console.log('intentionalError');
